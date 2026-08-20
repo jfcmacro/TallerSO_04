@@ -22,7 +22,7 @@ cd talleres
 Descargue el taller en formato zip, descomprimalo.
 
 ```
-wget https://github.com/jfcmacro/TallerSO_04/archive/refs/heads/master.zip
+curl -L -o master.zip https://github.com/jfcmacro/TallerSO_04/archive/refs/heads/master.zip
 unzip master.zip
 rm master.zip
 ```
